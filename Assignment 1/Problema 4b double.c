@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include<math.h>
+
+
+int main (void) {
+
+    int n;
+    printf("Numero maximo de terminos a sumar: ");
+    scanf("%d", &n);
+    printf("\n");
+
+    double S=0.;
+    double ca;
+    for(int k=n; 1<=k; k--){
+        ca=k;
+       S= 1./(ca*ca) +S;
+    }
+
+    printf("Valor en precision doble: %.16G", S);
+
+}
+

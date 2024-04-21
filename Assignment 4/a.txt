@@ -1,0 +1,9 @@
+PSEUDOCODI:
+
+Po = O'' + (li, hi)
+
+if  ( \max(R_{car}, R_h, r + \frac{w}{2} < R - \frac{w}{2} ) 
+then maniobra(r)
+
+else
+
